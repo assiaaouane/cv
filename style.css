@@ -1,0 +1,98 @@
+body{
+	 background-color: #5e8fb5 ;
+	  background-attachment: fixed;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  font-family: cambria;
+    } 
+
+
+
+img{ 
+	float: right;
+    border-radius: 46px 
+   }
+   nav
+{
+    display: flex;
+    width: 600px;
+    border: 4px groove black ;
+    text-align: center;
+
+    font-size: 30px;
+
+   
+}
+
+h1{color: black;
+ 	text-align: center;
+ 	font-size: xx-large
+ 	font-family: georgia ;
+ 	
+    text-shadow: 6px 15px 5px;
+ 		
+}
+
+
+.Experience {
+ 	border: 8px ridge #2e88c7;
+	border-radius: 20px;
+ }
+
+ .Formation {
+
+ }
+ .Langues {
+
+ }
+ .Permis{
+
+ }
+
+.Vidéo {
+
+}
+@font-face {
+    font-family: 'Game of Thrones';
+    src: url('GameofThrones.eot');
+    src: url('GameofThrones.eot?#iefix') format('embedded-opentype'),
+        url('GameofThrones.woff') format('woff'),
+        url('GameofThrones.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav,h3,h2,h1
+{
+	  font-family: 'Game of Thrones';
+}
+
+
+
+
+
+@media all and (max-width: 1024px) 
+{
+	body
+	{
+		width: auto;
+	}
+	header img
+	{
+		width: 110px;
+		float:right;
+		margin-left:15px;
+	}
+	h1
+	{
+		text-shadow: none;
+	}
+	nav
+	{
+		text-align: left;
+
+    font-size: 15px;
+    border:none;
+		
+	}
+}
